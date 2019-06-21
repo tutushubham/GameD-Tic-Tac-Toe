@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/dsc"
+    tools:context=".homepage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/t_i_c_t_a_c_t_o_e"
+        android:fontFamily="@font/stylish"
+        android:textSize="52sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/game_name"
+        android:paddingBottom="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose symbol for Player 1"
+
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/berkshireswash"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:shadowColor="#757575"
+            android:shadowRadius="10"
+            android:shadowDy="15"
+            android:textColor="@android:color/white"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/bbbb"
+                android:background="@drawable/shadow"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+
+                android:id="@+id/basketball"
+                android:layout_marginBottom="30dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:scaleType="fitCenter"
+                android:stateListAnimator="@animator/button_elevation"
+
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseball"
+                android:background="@drawable/shadow"
+                android:scaleType="fitCenter"
+                android:elevation="500dp"
+
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/baseball"
+                style="?android:attr/buttonBarButtonStyle"
+                android:stateListAnimator="@animator/button_elevation"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

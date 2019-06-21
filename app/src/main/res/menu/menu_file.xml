@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/volume_on"
+        android:id="@+id/sound_btn"
+        android:title="@string/no_sound"
+        android:actionLayout="@layout/support_simple_spinner_dropdown_item"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:icon="@drawable/music"
+        android:id="@+id/music_btn"
+        android:title="@string/no_music"
+        android:actionLayout="@layout/support_simple_spinner_dropdown_item"
+        app:showAsAction="ifRoom"/>
+
+</menu>

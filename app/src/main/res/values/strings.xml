@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="app_name">T.I.C.-T.A.C.-T.O.E.</string>
     <string name="player_1_wins">Player 1 Wins</string>
     <string name="player_2_wins">Player 2 Wins</string>
     <string name="draw">It\'s a Tie</string>
@@ -11,9 +11,13 @@
     <string name="restart_message">Do you want to restart the game?  </string>
 
 
-    <string name="restart_button_text_initially">Start New Game</string>
+    <string name="restart_button_text_initially">New Game</string>
     <string name="restart_button_text_in_middle_of_game">Restart Game</string>
-
+    <string name="t_i_c_t_a_c_t_o_e">T.I.C.-T.A.C.-T.O.E.</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="no_music">No Music</string>
+    <string name="no_sound">No Sound</string>
 
 
 </resources>
